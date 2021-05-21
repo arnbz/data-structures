@@ -190,21 +190,3 @@ class AVLTree {
     return node;
   }
 }
-
-let tree = new AVLTree();
-tree.insert(20);
-tree.insert(25);
-tree.insert(19);
-tree.insert(26);
-tree.insert(27);
-tree.insert(25);
-tree.insert(24);
-tree.insert(23);
-tree.insert(18);
-tree.insert(17);
-
-tree.delete(24);
-tree.delete(23);
-tree.delete(17);
-
-console.log(tree.test());
